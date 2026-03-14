@@ -1,0 +1,1 @@
+Este repositório contém exercícios que estou desenvolvendo durante meus estudos de HTML.

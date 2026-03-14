@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos do HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Fundamentos do HTML</h1>
+    <hr>
+    <h2><strong>Índice</strong></h2>
+    <ul>
+        <li><a href="#O-que-é-HTML">O que é HTML ?</a></li>
+        <li><a href="#Como-o-HTML-é-estruturado?">Como o HTML é estruturado ?</a></li>
+        <li><a href="#O-que-são-TAGS?">O que são TAGS ?</a></li>
+        <li><a href="#Tipos-de-TAGS">Tipos de TAGS </a></li>
+        <li><a href="#Listas">Listas</a></li>
+    </ul>
+
+    <h2 id="O-que-é-HTML">O que é <strong>HTML</strong>?</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <p>Html significa Hypertext markup language, ou seja significa Em português, seria algo como “Linguagem de Marcação de Hipertexto”</p>
+    <p>É a linguagem usada para estruturar páginas da internet. em HTML utilizamos coisas como:</p>
+    <ul>
+        <li>Titulos</li>
+        <li>Parágrafos</li>
+        <li>Imagens</li>
+        <li>Listas</li>
+        <li>Tabelas</li>
+        <li>Links</li>
+    </ul>
+    <hr>
+    <h2 id="Como-o-HTML-é-estruturado?">Como o HTML é estruturado ?</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <p><strong>HTML</strong> é estruturado através de tags e seu codigo subdivide em 3 partes sendo:</p>
+    <ul>
+        <li>HTML = tudo que está dentro dele está sendo usado no site</li>
+        <li>HEAD = É a parte que precisa ser carregada antes do site ser ultilizado</li>
+        <li>BODY = Aqui é toda a parte que o usuario possa visualizar </li>
+    </ul>
+
+    <hr>
+
+    <h2 id="O-que-são-TAGS?">O que são TAGS ?</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>São comandos onde cada um possui a sua função e serve para organizar o codigo para a criação de sites</p>
+    <p>São estruturados atravez de &lt; &gt; mas possuindo algumas caracteristicas diferentes</p>
+    <p>A maioria das tags possuiem estrutura de abertura e fechamento sendo: <br> ( &lt; &gt; )abre  (&lt;/&gt;)fechamento precisa de uma barra (/) para fechar  </p>
+    <p>Tags sem fechamento: <br> possuem somente (&lt; &gt;) mas na maioria das vezes usam atributos </p>
+    <p>Tags com atributos: <br> São complementos que adicionam informações às tags.  Eles ficam dentro da tag de abertura.</p>
+
+    <hr>
+
+    <h2 id="Tipos-de-TAGS">Tipos de TAGS</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+
+    <h3>Parágrafos</h3>
+    <p>A tag de parágrafo é usada para escrever textos.</p>
+
+    <ul>
+    <li>&lt;p&gt;Este é um parágrafo&lt;/p&gt;</li>
+    </ul>
+
+    <h3>Títulos</h3>
+    <p>Os títulos são representados pela letra H e vão de H1 até H6.</p>
+
+    <ul>
+    <li>&lt;h1&gt;Título principal da página&lt;/h1&gt;</li>
+    <li>&lt;h2&gt;Subtítulo&lt;/h2&gt;</li>
+    <li>&lt;h3&gt;Subseção&lt;/h3&gt;</li>
+    <li>&lt;h4&gt;Subdivisão&lt;/h4&gt;</li>
+    <li>&lt;h5&gt;Título menor&lt;/h5&gt;</li>
+    <li>&lt;h6&gt;O menor título&lt;/h6&gt;</li>
+    </ul>
+
+    <h3>Citações</h3>
+    <p>São usadas para indicar citações de outros autores podendo ser frases,formulas etc</p>
+    <p>É representado pela palavra blockquote </p>
+
+    <ul>
+        <li>&lt;blockquote&gt; é representado por está tag &lt;/blockquote&gt;</li>
+    </ul>
+    
+    <h3>Negrito</h3>
+    <p>São usadas para deixar palavras,frases ou textos em negrito <br> É representado pela tag &lt;strong&gt;  </p>
+
+    <ul>
+        <li>&lt;strong&gt; Esta frase esta em negrito &lt;/strong&gt;</li>
+    </ul>
+
+    <h3>Sublinhados</h3>
+    <p>sublinha uma palavra , frase ou  texto <br> É representado pela tag &lt;u&gt;</p>
+
+    <ul>
+        <li>&lt;u&gt; esta frase estará em negrito &lt;/u&gt;</li>
+    </ul>
+
+    <h3>Italico</h3>
+    <p>Transforma palavras, frases ou textos em italico <br>É representado pela tag &lt;i&gt; </p>
+
+    <ul>
+        <li>&lt;i&gt; Esta frase esta em italico &lt;/i&gt; </li>
+    </ul>
+
+    <h3>Marca textos</h3>
+    <p>Faz uma marcaçao ao texto <br> É representado pela tag &lt;mark&gt; </p>
+
+    <ul>
+        <li>&lt;mark&gt; Esta linha será marcada &lt;/mark&gt;</li>
+    </ul>
+
+    <h3>Tag sup</h3>
+    <p>A tag <strong>sup</strong> é usada para deixar um texto sobrescrito, ou seja, um pouco acima da linha normal do texto.</p>
+    <p>Ela é muito utilizada em expressões matemáticas ou referências.</p>
+    <p>Exemplo:</p>
+    <p>2<sup>3</sup> = 8</p>
+
+    <hr>
+
+    <h2 id="Listas">Listas</h2>
+    <a href="#inicio"><small>(voltar)</small></a>
+    <p>As listas são tags em HTML que ajudam na organização de estrutura do codigo <br> são divididas em:</p>
+
+    <h3>Listas Ordenadas</h3>
+    <p>listas que possuem marcadores numericos. <br> É representado pela tag &lt;ol&gt; </p>
+    <p>Exemplo:</p>
+        <ol>
+            <li>Primeiro item.</li>
+            <li>Segundo item.</li>
+        </ol>
+
+    <h3>Listas Não Ordenadas</h3>
+    <p>listas que possuem marcadores estilo bolinhas <br> É representado pela tag &lt;ul&gt;</p>
+    <p>exemplos:</p>
+        <ul>
+            <li>Primeiro item.</li>
+            <li>Segundo item.</li>
+        </ul>
+
+    
+</body>
+</html>
